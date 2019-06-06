@@ -2,8 +2,10 @@ package endpoint
 
 import (
 	"context"
+
 	endpoint "github.com/go-kit/kit/endpoint"
-	service "github.com/terasurfer/AMSE_CPSC546_Cartelize/accounts/pkg/service"
+	"github.com/tryu-fullerton-edu/AMSE_CPSC546_Cartelize/accounts/pkg/models"
+	service "github.com/tryu-fullerton-edu/AMSE_CPSC546_Cartelize/accounts/pkg/service"
 )
 
 // ListAdminsRequest collects the request parameters for the ListAdmins method.
